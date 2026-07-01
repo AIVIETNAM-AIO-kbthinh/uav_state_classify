@@ -1,0 +1,52 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+.venv*/
+venv/
+env/
+ENV/
+
+# Local environment files
+.env
+.env.*
+!.env.example
+
+# Build and packaging artifacts
+build/
+dist/
+*.egg-info/
+
+# Jupyter / notebook checkpoints
+.ipynb_checkpoints/
+
+# Project data and generated ML artifacts
+data/raw/
+data/processed/
+data/reports/
+outputs/
+logs/
+runs/
+
+# Model and array artifacts if generated outside outputs/
+*.keras
+*.h5
+*.tflite
+*.pkl
+*.npy
+
+# IDE and OS files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
