@@ -202,6 +202,18 @@ Create the comparison table:
 python -m src.evaluate --compare
 ```
 
+Generate matplotlib figures:
+
+```bash
+python -m src.visualize_results
+```
+
+Figures are saved to:
+
+```text
+outputs/figures/
+```
+
 ## Outputs
 
 Each trained model writes to `outputs/<model_name>/`:
